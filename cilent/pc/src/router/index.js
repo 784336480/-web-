@@ -31,6 +31,7 @@ import AnimePlay from '@/components/AnimeInfo/AnimePlay';
 Vue.use(Router);
 
 export default new Router({
+  mode:'history', //去除url的#
   routes: [
     {
       path: '/',

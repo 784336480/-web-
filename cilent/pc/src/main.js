@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
+import vueSwiper  from 'vue-awesome-swiper';
+import 'swiper/dist/css/swiper.css';
 import Axios from 'axios';
 Axios.defaults.baseURL="http://localhost:8899";
 Vue.prototype.$http=Axios

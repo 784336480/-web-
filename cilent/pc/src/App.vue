@@ -12,8 +12,13 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Microsoft Yahei,Tahoma,Helvetica,Arial,"\5B8B\4F53",sans-serif;
  	margin: 0;
  	padding: 0;
+}
+ul,
+li,
+ol {
+  list-style-type: none;
 }
 </style>
